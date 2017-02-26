@@ -1,0 +1,12 @@
+问题一: logo显示图片的空间比实践图片大小要小？
+解决方案：img设置max-width
+
+问题二：鼠标经过nav时，a的颜色变化有过渡？
+解决： transition: all .5s;
+
+问题三：将搜索图标放在输入框内？
+解决：背景图片。
+background:#fff url('../img/search.png') no-repeat 5px center;
+
+问题四：搜索图标在输入框内不遮盖内容？
+解决：padding: 0 30px;
