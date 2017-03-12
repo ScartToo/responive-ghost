@@ -291,18 +291,21 @@ body {
     width: 100%;
     overflow: hidden;
   }
-  #header .navbar {
-    margin-right: 0;
-    width: 90%;
+   #header .navbar{
+    width:32rem;
     clear: both;
-    display: inline-block;
-    padding-left: 8%;
+    display:block;
+    margin-right:5%;
   }
   #header .navbar li {
     float: left;
   }
+  #header .navbar-nav{
+    margin:0 auto;
+  }
   #header .navbar li a {
     padding-right: 0;
+    padding:1rem 0.5rem;
   }
   #header .navbar form {
     width: 29rem;
@@ -335,20 +338,21 @@ body {
   #header #navbar {
     width: 100%;
     overflow: hidden;
+    margin: 0 auto;
   }
   #header .navbar {
     margin-right: 0;
     width: 100%;
     clear: both;
-    padding-left: 8%;
     margin-top: 0;
   }
   #header .navbar li {
-    margin-right: 10%;
+    margin-right: 0;
     float: left;
   }
   #header .navbar li a {
-    padding-right: 0;
+    font-size: 14px;
+    padding:1rem 0.5rem;
   }
   #header .navbar form {
     width: 20rem;

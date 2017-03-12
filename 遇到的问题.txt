@@ -10,3 +10,4 @@ background:#fff url('../img/search.png') no-repeat 5px center;
 
 问题四：搜索图标在输入框内不遮盖内容？
 解决：padding: 0 30px;
+
